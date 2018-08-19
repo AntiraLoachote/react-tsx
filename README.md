@@ -1,3 +1,5 @@
+Get Start from https://github.com/wmonk/create-react-app-typescript :pray:
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
