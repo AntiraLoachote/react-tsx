@@ -6,7 +6,7 @@ import "./index.css";
 import "./index.js";
 import registerServiceWorker from "./registerServiceWorker";
 
-ReactDOM.render(<App text="Hi! Pan" />, document.getElementById(
+ReactDOM.render(<App text="+ TypeScript" />, document.getElementById(
   "root"
 ) as HTMLElement);
 registerServiceWorker();

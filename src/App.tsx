@@ -20,12 +20,12 @@ class App extends React.Component<IPropsType, {}> {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React {this.props.text}</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+
         <Container>
           <Row>
-            <Col>Get Started with Boostrap 4 !</Col>
+            <Col>
+              <p className="App-intro mt-4">Get Started with Boostrap 4 !</p>
+            </Col>
           </Row>
         </Container>
         <div className="container-fluid">
