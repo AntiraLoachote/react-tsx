@@ -1,6 +1,7 @@
 import * as React from "react";
-import "./App.css";
+import { Col, Container, Row } from "reactstrap";
 
+import "./App.css";
 import logo from "./logo.svg";
 
 interface IPropsType {
@@ -22,6 +23,22 @@ class App extends React.Component<IPropsType, {}> {
         <p className="App-intro">
           To get started, edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <Container>
+          <Row>
+            <Col>Get Started with Boostrap 4 !</Col>
+          </Row>
+        </Container>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col">1 of 2</div>
+            <div className="col">2 of 2</div>
+          </div>
+          <div className="row">
+            <div className="col">1 of 3</div>
+            <div className="col">2 of 3</div>
+            <div className="col">3 of 3</div>
+          </div>
+        </div>
       </div>
     );
   }
