@@ -1,4 +1,7 @@
 {
+  "rules": {
+    "no-console": false
+  },
   "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
   "linterOptions": {
     "exclude": [
@@ -6,5 +9,6 @@
       "node_modules/**/*.ts",
       "coverage/lcov-report/*.js"
     ]
-  }
+  },
+  "jsx-boolean-value": false
 }
